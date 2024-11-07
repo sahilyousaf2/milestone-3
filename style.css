@@ -39,8 +39,9 @@ label {
 }
 
 input {
-  margin-top: 5px;
-  font-size: 18px;
+  margin-top: 5px ;
+   
+  font-size: 19px;
   width: calc(100% - 10px);
   padding: 10px;
   border-radius: 5px;
@@ -53,7 +54,7 @@ input {
 }
 textarea {
   font-family: Poppins;
-  font-size: 18px;
+  font-size: 19px;
   margin-top: 5px;
   width: calc(100% - 10px);
   padding: 10px;
@@ -81,8 +82,9 @@ button {
 button:hover {  
   color: black;
 }
-.display-resume {
-  /* margin-top: 20px; */
+#shareable-link-container{
+  color: white;
+  margin-top: 20px;
   padding: 20px;
   background-color: #86a8cf;
   border-radius: 10px;
@@ -104,3 +106,4 @@ button:hover {
   border: none;
   width: 20%;
 }
+
