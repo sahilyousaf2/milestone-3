@@ -12,15 +12,15 @@ form.addEventListener("submit", (event: Event) => {
     const resumeHtml = `
     <h2><br>Resume</br></h2>
     <h3>Perosnal Infomation</h3>
-    <p><b>Name :</b> ${name}</p>
-    <p><b>Eamil :</b> ${eamil}</p>
-    <p><b>Phone :</b> ${phone}</p>
-    <h3>Education</h3>
-    <p>${education}</p>
-    <h3>Experiance</h3>
-    <p>${experiance}</p>
-    <h3>kill</h3>
-    <p${skill}</p>
+    <p><b>Name :</b> <span contenteditable="true">${name}</span></p>
+    <p><b>Eamil :</b> <span contenteditable="true">${eamil}</span></p>
+    <p><b>Phone :</b> <span contenteditable="true">${phone}</span></p>
+    <h3>Education :</h3>
+    <p><span contenteditable="true">${education}</span></p>
+    <h3>Experiance :</h3>
+    <p><span contenteditable="true">${experiance}</span></p>
+    <h3>Skill :</h3>
+    <p><span contenteditable="true">${skill}</span></p>
     `
     if (resumeDisplayElement) {
         resumeDisplayElement.innerHTML = resumeHtml;
