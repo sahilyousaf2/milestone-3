@@ -1,0 +1,75 @@
+body {
+  margin: 20px;
+  padding: 0;
+  font-family: poppins;
+}
+form {
+  box-shadow: 0 0 50px rgba(0, 0, 0, 1);
+  margin: auto;
+  background-color: #26425a;
+  padding: 20px;
+  max-width: 600px;
+  border-radius: 10px;
+}
+h1 {
+  text-align: center;
+  color: black;
+}
+fieldset {
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #86a8cf;
+}
+legend {
+  font-size: 24px;
+  text-align: left;
+  font-weight: bold;
+  color: white;
+}
+label {
+  font-size: 18px;
+  font-weight: 600;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+input,
+textarea {
+  margin-top: 4px;
+  width: calc(100% - 12px);
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  resize: none;
+  color: black;
+}
+button {
+  display: block;
+  margin-top: 10px;
+  width: 100%;
+  background-color: #86a8cf;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4 10px rgba(0, 0, 0, 0.5);
+}
+button:hover {
+  color: black;
+}
+#display-resume {
+  /* margin-top: 20px; */
+  padding: 20px;
+  background-color: #86a8cf;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 1);
+}
