@@ -11,6 +11,14 @@
     <form id="resume-form">
       <fieldset>
         <legend>Personal Infomation</legend>
+        <label for="username">Username:</label>
+        <!-- username -->
+        <input
+          type="text"
+          id="username"
+          placeholder="Enter Your Username"
+          required
+        />
         <label for="name">Name:</label>
         <!-- name -->
         <input type="text" id="name" placeholder="Enter Your Name" required />
@@ -66,9 +74,23 @@
     </form>
     <br />
     <!-- dynamic resume -->
-    <div id="display-resume" contenteditable="true">
+    <div id="display-resume" class="display-resume" contenteditable="true">
       <!-- resume will geranteed -->
     </div>
+    <br />
+    <div
+      class="display-resume"
+      id="shareable-link-container"
+      style="display: none"
+    >
+      <h2>Shareable Link</h2>
+      <p>Here is your unique link to view your resume:</p>
+      <a href="#" id="shareable-link" target="_blank"></a>
+      <br />
+    </div>
+    <button class="display-resume-btn" id="download-pdf-button">
+      <b>Download as PDF</b>
+    </button>
     <script src="script.js"></script>
   </body>
 </html>
